@@ -10,29 +10,22 @@
     <div class="container">
         <h1>{{$json.output}}</h1>
 
-        <div class="section">
+        <div class="section" id="section-1">
             <h2>{{$json.output}}</h2>
             <p>{{$json.output}}</p>
         </div>
 
-        <div class="section">
+        <div class="section" id="section-2">
             <h2>{{$json.output}}</h2>
             <p>{{$json.output}}</p>
         </div>
 
-        <div class="section">
+        <div class="section" id="section-3">
             <h2>{{$json.output}}</h2>
             <p>{{$json.output}}</p>
         </div>
     </div>
 
-    <script>
-        // 自動填入當前日期
-        document.getElementById('date').textContent = new Date().toLocaleDateString('zh-TW', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-        });
-    </script>
+    <script src="tracking.js"></script>
 </body>
 </html>
