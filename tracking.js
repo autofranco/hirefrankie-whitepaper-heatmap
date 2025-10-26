@@ -4,7 +4,7 @@
 (function() {
     'use strict';
 
-    const WEBHOOK_URL = 'https://hirefrankie.zeabur.app/webhook-test/28128c26-8a94-46c5-b99f-f26eff4e5336';
+    const WEBHOOK_URL = 'https://hirefrankie.zeabur.app/webhook/whitepaper_user_event';
     const THRESHOLD = 0.5; // 50% of section must be visible
 
     // Track current state of each section to avoid duplicate events
